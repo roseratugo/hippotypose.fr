@@ -1,0 +1,74 @@
+@include('partials/header')
+
+<section class="testimonials-page_container">
+    <h1>{{ t('nav.testimonials') }}</h1>
+    <p>{{ t('testimonials.baseline') }}</p>
+
+    <div class="testimonials_container">
+        <div class="testimonials_item">
+            <img src="{{ asset('resources/assets/img/testimonials/Olivier-GEFFROY.jpeg') }}" alt="Logo" />
+            <blockquote>
+                <p>{{ t('testimonials.olivier.text')}}</p>
+                <cite>Olivier GEFFROY</cite>
+                <p class="job"><i>{{ t('testimonials.olivier.job')}}</i></p>
+            </blockquote>
+        </div>
+
+        <div class="testimonials_item">
+            <img src="{{ asset('resources/assets/img/testimonials/Denis-LEVEILLARD.jpeg') }}" alt="Logo" />
+            <blockquote>
+                <p>{{ t('testimonials.denis.text')}}</p>
+                <cite>Denis LEVEILLARD</cite>
+                <p class="job"><i>{{ t('testimonials.denis.job')}}</i></p>
+            </blockquote>
+        </div>
+
+        <div class="testimonials_item">
+            <img src="{{ asset('resources/assets/img/testimonials/Rance-Frémur.jpg') }}" alt="Logo" />
+            <blockquote>
+                <p>{{ t('testimonials.rance-fremur.text')}}</p>
+                <cite>{{ t('testimonials.rance-fremur.name')}}</cite>
+            </blockquote>
+        </div>
+
+        <div class="testimonials_item">
+            <img src="{{ asset('resources/assets/img/testimonials/Frédérique-CAMBE.jpg') }}" alt="Logo" />
+            <blockquote>
+                <p>{{ t('testimonials.frederique.text')}}</p>
+                <cite>Frédérique CAMBE</cite>
+                <p class="job"><i>{{ t('testimonials.frederique.job')}}</i></p>
+            </blockquote>
+        </div>
+
+        <div class="testimonials_item">
+            <img src="{{ asset('resources/assets/img/testimonials/Xavier-DERRIEN.jpeg') }}" alt="Logo" />
+            <blockquote>
+                <p>{{ t('testimonials.xavier.text')}}</p>
+                <cite>Xavier DERRIEN</cite>
+                <p class="job"><i>{{ t('testimonials.xavier.job')}}</i></p>
+            </blockquote>
+        </div>
+
+        <div class="testimonials_item">
+            <img src="{{ asset('resources/assets/img/testimonials/Louis-BOUHANNA.jpeg') }}" alt="Logo" />
+            <blockquote>
+                <p>{{ t('testimonials.louis.text')}}</p>
+                <cite>Louis BOUHANNA</cite>
+                <p class="job"><i>{{ t('testimonials.louis.job')}}</i></p>
+            </blockquote>
+        </div>
+
+        <div class="testimonials_item">
+            <img src="{{ asset('resources/assets/img/testimonials/Fabien-EYMERIC.jpeg') }}" alt="Logo" />
+            <blockquote>
+                <p>{{ t('testimonials.fabien.text')}}</p>
+                <cite>Fabien EYMERIC</cite>
+                <p class="job"><i>{{ t('testimonials.fabien.job')}}</i></p>
+            </blockquote>
+        </div>
+
+    </div>
+
+</section>
+
+@include('partials/footer')

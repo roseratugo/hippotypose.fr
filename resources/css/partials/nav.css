@@ -1,0 +1,82 @@
+.header .nav {
+    padding-top: calc(6 * var(--space));
+    padding-bottom: calc(3 * var(--space));
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.header .nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.header .nav ul li {
+    list-style: none;
+}
+
+.header .nav ul li a {
+    text-decoration: none;
+    transition: color ease-in-out .15s;
+    color: var(--color-text-light);
+}
+
+.header .nav ul li a:hover,
+.header .nav ul li a.active {
+    color: var(--color-primary);
+}
+
+.header .nav .nav-ul .logo {
+    border-right: 1px solid var(--border-color);
+    padding-right: calc(2 * var(--space));
+    margin-right: calc(4 * var(--space));
+}
+
+.header .nav .nav-ul li:not(:last-child) {
+    margin-right: calc(2 * var(--space));
+}
+
+.header .nav .nav-ul .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.header .nav .nav-ul .dropdown .dropbtn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.header .nav .nav-ul .dropdown .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.header .nav .nav-ul .dropdown .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.header .nav .nav-ul .dropdown .dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.header .nav .nav-ul .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.header .nav .side-ul li:not(:first-child) {
+    margin-left: calc(2 * var(--space));
+}
+
+.header .nav .side-ul li select {
+    padding: var(--space);
+    border-radius: var(--space);
+    border: 1px solid var(--border-color);
+}

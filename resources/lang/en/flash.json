@@ -1,0 +1,37 @@
+{
+    "blog": {
+        "created": {
+            "success": "The article has been successfully created",
+            "error": "An error occurred while creating the article"
+        }
+    },
+    "contact": {
+        "store": {
+            "success": "Your message has been sent successfully!",
+            "error": "An error occurred while sending your message. Please try again."
+        }
+    },
+    "demo-requests": {
+        "store": {
+            "success": "Your demo request has been successfully recorded and sent!",
+            "error": "An error occurred while sending your demo request. Please try again."
+        }
+    },
+    "demonstration": {
+        "store": {
+            "success": "Your demonstration request has been sent successfully!",
+            "error": "An error occurred while sending the demonstration request."
+        }
+    },
+    "languages-error": "The selected language is not supported.",
+    "users": {
+        "login": {
+            "success": "You are now logged in!",
+            "error": "Oops, an error occurred, please check your credentials!"
+        },
+        "store": {
+            "success": "Your account has been created successfully, and you are now logged in.",
+            "error": "Oops, an error occurred, please check your information!"
+        }
+    }
+}

@@ -1,0 +1,15 @@
+@include('partials/header')
+
+<section class="register-page_container">
+    <h1>Register</h1>
+
+    <form action="/register" method="POST">
+        <input id="fullName" name="fullName" type="text" placeholder="fullName" />
+        <input id="email" name="email" type="email" placeholder="email" />
+        <input id="password" name="password" type="password" placeholder="password" />
+        <input id="password_confirmation" name="password_confirmation" type="password" placeholder="password_confirmation" />
+        <button type="submit">Register</button>
+    </form>
+</section>
+
+@include('partials/footer')

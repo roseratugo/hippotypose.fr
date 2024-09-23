@@ -1,0 +1,17 @@
+{
+    "demonstration": "Démonstration",
+    "baseline": "Besoin d'une démonstration ? Notre équipe est prête à vous accueillir lors d'une visioconférence.",
+    "form-title": "Vous préférez être recontacté ?",
+    "lastname": "Nom",
+    "firstname": "Prénom",
+    "status": {
+        "select": "Sélectionnez votre status",
+        "farrier": "Maréchal-ferrant",
+        "veterinarian": "Vétérinaire",
+        "owner": "Propriétaire",
+        "other": "Autre"
+    },
+    "phone": "Téléphone",
+    "your-dispo": "Vos disponibilité pour la demonstration",
+    "send": "Envoyer"
+}

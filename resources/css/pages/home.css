@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 100px 0;
+}
+
+.container .side, .container .illustration{
+    width: 40%;
+}
+
+.container .side h2{
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+.container .side p{
+    margin-bottom: calc(3 * var(--space));
+}
+
+.container .illustration img{
+    width: 100%;
+    object-fit: contain;
+}

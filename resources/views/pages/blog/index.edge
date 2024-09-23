@@ -1,0 +1,24 @@
+@include('partials/header')
+<section class="blog-page_container">
+  <h1>Blog</h1>
+  <p>{{ t('home.blog-baseline') }}</p>
+  @if(auth.isAuthenticated)
+    <div class="authenticated-user-section" style="margin-top: 20px;">
+      <div class="btn btn-primary"><a href="/blog/create">Créer un nouvel article</a></div>
+    </div>
+  @end
+  <div class="articles-container">
+    @each(blog in blogs)
+      <a href="/blog/{{ blog.slug }}" class="article-link">
+        <div class="article">
+          <h2 class="article-title">{{ blog.title }}</h2>
+          <div class="article-date">
+            {{ blog.createdAt.setLocale('fr').toFormat('dd MMMM yyyy') }}
+          </div>
+          <p class="article-description">{{ blog.description }}</p>
+        </div>
+      </a>
+    @end
+  </div>
+</section>
+@include('partials/footer')

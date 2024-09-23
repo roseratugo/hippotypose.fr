@@ -1,0 +1,16 @@
+@include('partials/header')
+
+<section class="create-blog">
+    <h1>Create blog</h1>
+
+    <form action="/blog/create" method="POST">
+        <input id="title" name="title" type="text" placeholder="Title" />
+        <input id="slug" name="slug" type="text" placeholder="Slug" />
+        <input id="description" name="description" placeholder="Description" />
+        <textarea id="content" name="content" placeholder="Content"></textarea>
+
+        <button type="submit" >Créé l'article</button>
+    </form>
+</section>
+
+@include('partials/footer')

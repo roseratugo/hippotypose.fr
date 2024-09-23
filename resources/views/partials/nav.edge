@@ -1,0 +1,43 @@
+<header class="header">
+    <nav class="nav">
+      <ul class="nav-ul">
+        <div class="logo">
+          <a href="/" up-target="main"><img src="{{ asset('resources/assets/img/logo-hippotypose.svg') }}" alt="Logo" /></a>
+        </div>
+        <!--<li class="dropdown">
+          <a class="dropbtn nav-link" href="#" up-follow>{{ t('nav.features') }} <i class="bi bi-chevron-down"></i></a>
+          <div class="dropdown-content">
+            <a href="/feature1" class="nav-link" up-target="main" up-alias="/feature1/*">Link 1</a>
+            <a href="/feature2" class="nav-link" up-target="main" up-alias="/feature2/*">Link 2</a>
+            <a href="/feature3" class="nav-link" up-target="main" up-alias="/feature3/*">Link 3</a>
+          </div>
+        </li>-->
+        <li><a href="/demonstration" up-target="main" up-alias="/demonstration/*" class="nav-link">{{ t('nav.demonstration') }}</a></li>
+        <li><a href="/temoignages" up-target="main" up-alias="/temoignages/*" class="nav-link">{{ t('nav.testimonials') }}</a></li>
+        <li><a href="/nos-offres" up-target="main" up-alias="/nos-offres/*" class="nav-link">{{ t('nav.our-offers') }}</a></li>
+        <li><a href="/blog" up-target="main" up-alias="/blog/*" class="nav-link">Blog</a></li>
+      </ul>
+      <ul class="side-ul">
+        <li><a href="/contact" up-target="main" class="nav-link">Contact</a></li>
+        <li>
+          <form action="/switch-language" method="POST">
+            <select name="locale" onchange="this.form.submit()">
+              <option value="fr" {{ i18n.locale === 'fr' ? 'selected' : '' }}>🇫🇷 FR</option>
+              <option value="en" {{ i18n.locale === 'en' ? 'selected' : '' }}>🇬🇧 EN</option>
+            </select>
+          </form>
+        </li>
+        <li class="btn btn-primary"><a href="https://app.hippotypose.com/" target="_blank">{{ t('nav.access-platform') }}</a></li>
+      </ul>
+    </nav>
+    @if(flashMessages.has('success'))
+      <div class="alert alert-success">
+        {{ flashMessages.get('success') }}
+      </div>
+    @endif
+    @if(flashMessages.has('error'))
+      <div class="alert alert-error">
+        {{ flashMessages.get('error') }}
+      </div>
+    @endif
+  </header>

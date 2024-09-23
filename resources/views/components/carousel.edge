@@ -1,0 +1,68 @@
+<div class="carousel-container" id="carousel-{{ $props.id }}">
+    @each((image, index) in images)
+      <div class="carousel-slide {{ index === 0 ? 'active' : '' }}">
+        <img src="{{ asset(image.src) }}" alt="{{ image.alt }}">
+      </div>
+    @endeach
+    <div class="carousel-dots">
+      @each((_, index) in images)
+        <span class="dot {{ index === 0 ? 'active' : '' }}" data-slide="{{ index + 1 }}"></span>
+      @endeach
+    </div>
+  </div>
+  
+  <script>
+  (function() {
+    const carouselId = 'carousel-{{ $props.id }}';
+    const carousel = document.getElementById(carouselId);
+    let slideIndex = 1;
+    let slideInterval;
+  
+    function showSlides(n) {
+      const slides = carousel.getElementsByClassName("carousel-slide");
+      const dots = carousel.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (let i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+    }
+  
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+      resetInterval();
+    }
+  
+    function nextSlide() {
+      showSlides(slideIndex += 1);
+    }
+  
+    function resetInterval() {
+      clearInterval(slideInterval);
+      slideInterval = setInterval(nextSlide, 3500);
+    }
+  
+    // Set up click events for dots
+    carousel.querySelectorAll('.dot').forEach(dot => {
+      dot.addEventListener('click', function() {
+        currentSlide(parseInt(this.getAttribute('data-slide')));
+      });
+    });
+  
+    // Set up mouse enter/leave events
+    carousel.addEventListener('mouseenter', () => {
+      clearInterval(slideInterval);
+    });
+  
+    carousel.addEventListener('mouseleave', resetInterval);
+  
+    // Initialize the carousel
+    showSlides(slideIndex);
+    resetInterval();
+  })();
+  </script>

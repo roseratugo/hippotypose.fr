@@ -1,0 +1,54 @@
+<div id="cookieBanner" class="cookie-banner">
+    <div class="cookie-banner__title">Cookies</div>
+    <p class="cookie-banner__text">
+        Nous utilisons des cookies et des technologies similaires pour nous aider à personnaliser le contenu, à adapter
+        et à mesurer les publicités et à offrir une meilleure expérience. En cliquant sur Accepter, vous acceptez cela,
+        comme indiqué dans notre politique en matière de cookies.
+    </p>
+    <div class="cookie-banner__buttons">
+        <button id="rejectCookies" class="cookie-banner__button cookie-banner__button--reject">Refuser</button>
+        <button id="acceptCookies" class="cookie-banner__button cookie-banner__button--accept">Accepter</button>
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const cookieBanner = document.getElementById('cookieBanner');
+        const acceptButton = document.getElementById('acceptCookies');
+        const rejectButton = document.getElementById('rejectCookies');
+
+        function setCookie(name, value, days) {
+            const date = new Date();
+            date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+            const expires = "expires=" + date.toUTCString();
+            document.cookie = name + "=" + value + ";" + expires + ";path=/";
+        }
+
+        function getCookie(name) {
+            const nameEQ = name + "=";
+            const ca = document.cookie.split(';');
+            for (let i = 0; i < ca.length; i++) {
+                let c = ca[i];
+                while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+                if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+            }
+            return null;
+        }
+
+        if (!getCookie('cookieConsent')) {
+            cookieBanner.style.display = 'block';
+        }
+
+        acceptButton.addEventListener('click', function () {
+            setCookie('cookieConsent', 'accepted', 365);
+            cookieBanner.style.display = 'none';
+            // Ici, vous pouvez activer tous les cookies
+        });
+
+        rejectButton.addEventListener('click', function () {
+            setCookie('cookieConsent', 'rejected', 365);
+            cookieBanner.style.display = 'none';
+            // Ici, vous pouvez désactiver les cookies non essentiels
+        });
+    });
+</script>

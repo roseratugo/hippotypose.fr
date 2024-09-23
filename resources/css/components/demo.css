@@ -1,0 +1,40 @@
+.phone-input-container {
+    display: flex;
+    align-items: stretch;
+    gap: calc(2 * var(--space));
+    max-width: 600px;
+    margin-top: calc(3 * var(--space));
+}
+.phone-input-wrapper {
+    display: flex;
+    flex-grow: 1;
+    border: 1px solid var(--border-color);
+    border-radius: var(--space);
+    overflow: hidden;
+}
+.country-code-select {
+    background-color: white;
+    padding: calc(1.5 * var(--space));
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.phone-input {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+}
+button {
+    padding: var(--space) calc(2 * var(--space));
+    background-color: var(--color-primary);
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: var(--space);
+    cursor: pointer;
+    transition: background-color ease-in-out .15s;
+}
+button:hover {
+    background-color: var(--color-secondary);
+}

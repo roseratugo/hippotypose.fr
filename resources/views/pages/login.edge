@@ -1,0 +1,13 @@
+@include('partials/header')
+
+<section class="login-page_container" >
+    <h1>Login</h1>
+
+    <form action="/login" method="POST">
+        <input id="email" name="email" type="email" placeholder="email" />
+        <input id="password" name="password" type="password" placeholder="password" />
+        <button type="submit">Login</button>
+    </form>
+</section>
+
+@include('partials/footer')

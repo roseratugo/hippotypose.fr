@@ -1,0 +1,84 @@
+.offer-page_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: calc(6 * var(--space));
+}
+
+.offer-page_container h1{
+    font-size: 2.5rem;
+}
+
+.select-scoop{
+    display: flex;
+    margin-top: calc(3 * var(--space));
+    background-color: white;
+    border-radius: calc(3 * var(--space));
+}
+
+.scoop{
+    border-radius: calc(3 * var(--space));
+    padding: var(--space) calc(2 * var(--space));
+    cursor: pointer;
+    color: var(--color-primary);
+}
+
+.select-scoop .active{
+    background-color: var(--color-primary);
+    color: white;
+}
+
+.offers{
+    display: flex;
+    margin: calc(6 * var(--space)) 0;
+}
+
+.offer:not(:last-child){
+    margin-right: calc(3 * var(--space));
+}
+
+.offers .offer{
+    width: 100%;
+    border: 1px solid var(--border-color);
+    border-radius: var(--space);
+    background-color: white;
+    padding: calc(3 * var(--space));
+}
+
+.offers .offer p{
+    margin-bottom: calc(2 * var(--space));
+    display: flex;
+    align-items: center;
+}
+
+.offer .btn a{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: calc(4 * var(--space));
+}
+
+.bi-check-lg{
+    color: rgb(50, 183, 50);
+    font-size: 35px;
+}
+
+.hidden{ display: none; }
+
+.price{
+    color: var(--color-primary);
+    font-size: 18px;
+    margin-bottom: calc(2 * var(--space));
+}
+
+.price strong{
+    font-size: 38px;
+}
+
+.price .promo{
+    color: var(--color-text-light);
+    font-weight: 400;
+    text-decoration: line-through;
+    font-size: 22px;
+    margin-right: var(--space);
+}

@@ -1,0 +1,37 @@
+{
+    "blog": {
+        "created": {
+            "success": "L'article a bien été créé",
+            "error": "Une erreur s'est produite lors de la création de l'article"
+        }
+    },
+    "contact": {
+        "store": {
+            "success": "Votre message a été envoyé avec succès !",
+            "error": "Une erreur est survenue lors de l'envoi de votre message. Veuillez réessayer."
+        }
+    },
+    "demo-requests": {
+        "store": {
+            "success": "Votre demande de démo a été enregistrée et envoyée avec succès !",
+            "error": "Une erreur est survenue lors de l'envoi de votre demande de démo. Veuillez réessayer."
+        }
+    },
+    "demonstration": {
+        "store": {
+            "success": "Votre demande de démonstration a été envoyé avec succès !",
+            "error": "Une erreur est survenue lors de l'envoie de la demande de démonstration."
+        }
+    },
+    "languages-error": "La langue sélectionnée n'est pas supportée.",
+    "users": {
+        "login": {
+            "success": "Vous êtes connecté !",
+            "error": "Oups, une erreur est survenue, vérifiée vos identifiants !"
+        },
+        "store": {
+            "success": "Votre compte a bien été créé, et vous êtes maintenant connecté.",
+            "error": "Oups, une erreur est survenue, vérifiée vos informations !"
+        }
+    }
+}

@@ -1,0 +1,99 @@
+@include('partials/header')
+
+<section class="offer-page_container">
+    <h1>{{ t('nav.our-offers') }}</h1>
+    <p>{{ t('offers.baseline') }}</p>
+    <div class="select-scoop">
+        <div class="scoop active" data-type="monthly">{{ t('offers.monthly') }} {{ t('offers.ht') }}</div>
+        <div class="scoop" data-type="annual">{{ t('offers.annual') }} {{ t('offers.ht') }}</div>
+    </div>
+    
+    <div id="monthlyOffers" class="offers">
+        <div class="offer">
+            <h3>{{ t('offers.farriers') }}</h3>
+            <p>{{ t('offers.subscription') }} {{ t('offers.farriers') }} {{ t('offers.monthly') }}</p>
+            <div class="price"><strong>27,50€</strong>/{{ t('offers.month') }}</div>
+            <div class="btn btn-primary"><a href="#">{{ t('offers.contact-us') }}</a></div>
+            <div class="includes">
+                <p><i class="bi bi-check-lg"></i> Fonctionnalités ...</p>
+                <p><i class="bi bi-check-lg"></i> Fonctionnalités ...</p>
+                <p><i class="bi bi-check-lg"></i> Fonctionnalités ...</p>
+                <p><i class="bi bi-check-lg"></i> Fonctionnalités ...</p>
+            </div>
+        </div>
+        <div class="offer">
+            <h3>{{ t('offers.veterinarian') }}</h3>
+            <p>{{ t('offers.subscription') }} {{ t('offers.veterinarian') }} {{ t('offers.monthly') }}</p>
+            <div class="price"><strong>54,99€</strong>/{{ t('offers.month') }}</div>
+            <div class="btn btn-primary"><a href="#">{{ t('offers.contact-us') }}</a></div>
+            <div class="includes">
+                <p><i class="bi bi-check-lg"></i> Fonctionnalités ...</p>
+                <p><i class="bi bi-check-lg"></i> Fonctionnalités ...</p>
+                <p><i class="bi bi-check-lg"></i> Fonctionnalités ...</p>
+                <p><i class="bi bi-check-lg"></i> Fonctionnalités ...</p>
+            </div>
+        </div>
+        <div class="offer">
+            <h3>{{ t('offers.business-solution') }}</h3>
+            <p>{{ t('offers.business-solution-text') }}</p>
+            <div class="btn btn-primary"><a href="#">{{ t('offers.contact-us') }}</a></div>
+        </div>
+    </div>
+
+    <div id="annualOffers" class="offers hidden">
+        <div class="offer">
+            <h3>{{ t('offers.farriers') }}</h3>
+            <p>{{ t('offers.subscription') }} {{ t('offers.farriers') }} {{ t('offers.annual') }}</p>
+            <div class="price"><strong class="promo">330€</strong><strong>299,99€</strong>/{{ t('offers.years') }}</div>
+            <div class="btn btn-primary"><a href="#">{{ t('offers.contact-us') }}</a></div>
+            <div class="includes">
+                <p><i class="bi bi-check-lg"></i> Fonctionnalités ...</p>
+                <p><i class="bi bi-check-lg"></i> Fonctionnalités ...</p>
+                <p><i class="bi bi-check-lg"></i> Fonctionnalités ...</p>
+                <p><i class="bi bi-check-lg"></i> Fonctionnalités ...</p>
+            </div>
+        </div>
+        <div class="offer">
+            <h3>{{ t('offers.veterinarian') }}</h3>
+            <p>{{ t('offers.subscription') }} {{ t('offers.veterinarian') }} {{ t('offers.annual') }}</p>
+            <div class="price"><strong class="promo">659,88€</strong><strong>599,99€</strong>/{{ t('offers.years') }}</div>
+            <div class="btn btn-primary"><a href="#">{{ t('offers.contact-us') }}</a></div>
+            <div class="includes">
+                <p><i class="bi bi-check-lg"></i> Fonctionnalités ...</p>
+                <p><i class="bi bi-check-lg"></i> Fonctionnalités ...</p>
+                <p><i class="bi bi-check-lg"></i> Fonctionnalités ...</p>
+                <p><i class="bi bi-check-lg"></i> Fonctionnalités ...</p>
+            </div>
+        </div>
+        <div class="offer">
+            <h3>{{ t('offers.business-solution') }}</h3>
+            <p>{{ t('offers.business-solution-text') }}</p>
+            <div class="btn btn-primary"><a href="#">{{ t('offers.contact-us') }}</a></div>
+        </div>
+    </div>
+</section>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const scoops = document.querySelectorAll('.scoop');
+        const monthlyOffers = document.getElementById('monthlyOffers');
+        const annualOffers = document.getElementById('annualOffers');
+
+        scoops.forEach(scoop => {
+            scoop.addEventListener('click', function() {
+                scoops.forEach(s => s.classList.remove('active'));
+                this.classList.add('active');
+
+                if (this.dataset.type === 'monthly') {
+                    monthlyOffers.classList.remove('hidden');
+                    annualOffers.classList.add('hidden');
+                } else {
+                    monthlyOffers.classList.add('hidden');
+                    annualOffers.classList.remove('hidden');
+                }
+            });
+        });
+    });
+</script>
+
+@include('partials/footer')

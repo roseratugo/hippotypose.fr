@@ -1,0 +1,61 @@
+@include('partials/header')
+
+<section class="container">
+    <div class="side">
+        <h2>{{{ t('home.h2Title') }}}</h2>
+        <p>{{ t('home.baseline') }}</p>
+        @include('components/demo')
+    </div>
+    <div class="illustration">
+        <img src="{{ asset('resources/assets/img/mockup-hippotypose.png') }}" />
+    </div>
+</section>
+
+<section class="container">
+    <div class="illustration">
+        <img src="{{ asset('resources/assets/img/illu2.png') }}" />
+        <!--
+            @!component('components/carousel', {
+                id: 'carousel1',
+                images: [
+                    { src: 'resources/assets/img/details-hippotypose-01.png', alt: 'Details Hippotypose 1' },
+                    { src: 'resources/assets/img/details-hippotypose-02.png', alt: 'Details Hippotypose 2' },
+                    { src: 'resources/assets/img/details-hippotypose-03.png', alt: 'Details Hippotypose 3' },
+                    { src: 'resources/assets/img/details-hippotypose-04.png', alt: 'Details Hippotypose 4' },
+                    { src: 'resources/assets/img/details-hippotypose-05.png', alt: 'Details Hippotypose 5' },
+                    { src: 'resources/assets/img/details-hippotypose-06.png', alt: 'Details Hippotypose 6' },
+                    { src: 'resources/assets/img/details-hippotypose-07.png', alt: 'Details Hippotypose 7' },
+                ]
+            })
+        -->
+    </div>
+    <div class="side">
+        <h2>{{{ t('home.firstSectionTitle') }}}</h2>
+        <p>{{{ t('home.firstSectionText') }}}</p>
+        <div class="btn btn-primary"><a href="/">{{ t('home.learn-more') }}</a></div>
+    </div>
+</section>
+
+<section class="container">
+    <div class="side">
+        <h2>{{{ t('home.secondSectionTitle') }}}</h2>
+        <p>{{ t('home.secondSectionText') }}</p>
+    </div>
+    <div class="illustration">
+        <!--<img src="{{ asset('resources/assets/img/mockup-hippotypose.png') }}" />-->
+    </div>
+</section>
+
+<section class="container">
+    <div class="illustration">
+        <!--<img src="{{ asset('resources/assets/img/mockup-hippotypose.png') }}" />-->
+    </div>
+    <div class="side">
+        <h2>{{{ t('home.thirdSectionTitle') }}}</h2>
+        <p>{{ t('home.thirdSectionText') }}</p>
+        <div class="btn btn-primary"><a href="/">{{ t('home.learn-more') }}</a></div>
+    </div>
+
+</section>
+
+@include('partials/footer')

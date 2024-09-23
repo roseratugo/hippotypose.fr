@@ -1,0 +1,17 @@
+{
+    "demonstration": "Demonstration",
+    "baseline": "Need a demonstration? Our team is ready to welcome you for a video conference.",
+    "form-title": "Would you prefer to be contacted?",
+    "lastname": "Last Name",
+    "firstname": "First Name",
+    "status": {
+        "select": "Select your status",
+        "farrier": "Farrier",
+        "veterinarian": "Veterinarian",
+        "owner": "Owner",
+        "other": "Other"
+    },
+    "phone": "Phone",
+    "your-dispo": "Your availability for the demonstration",
+    "send": "Send"
+}

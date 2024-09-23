@@ -1,0 +1,20 @@
+</main>
+<footer class="footer">
+    <div class="footer_left">
+        <img src="{{ asset('resources/assets/img/hippo_muted.svg') }}" alt="Logo muted" />
+        <p>&copy; Hippotypose 2024</p>
+    </div>
+    <div class="footer_right">
+        <ul>
+            <li><a href="/"><i class="bi bi-lock-fill"></i> {{ t('footer.cookies') }}</a></li>
+            <li><a href="/"><i class="bi bi-journals"></i> {{ t('footer.legals') }}</a></li>
+            <li><a href="mailto:support@hippotypose.com"><i class="bi bi-envelope-fill"></i> support@hippotypose.com</a></li>
+        </ul>
+    </div>
+</footer>
+
+@include('partials/cookie')
+
+</body>
+
+</html>

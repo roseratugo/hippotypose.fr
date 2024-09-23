@@ -1,0 +1,26 @@
+{
+    "baseline": "We're here to listen. Don't hesitate to contact us.",
+    "business-service": "Business Service",
+    "support-service": "Support Service",
+    "farrier-expert": "Farrier Expert",
+    "veterinarian-expert": "Veterinary Expert",
+    "lastname": "Last Name",
+    "firstname": "First Name",
+    "status": {
+        "select": "Select your status",
+        "farrier": "Farrier",
+        "veterinarian": "Veterinarian",
+        "owner": "Owner"
+    },
+    "phone": "Phone",
+    "object-label": "Purpose of your request",
+    "object": {
+        "select": "Select the purpose of your request",
+        "info": "Request for information",
+        "devis": "Request for quote",
+        "support": "Technical support",
+        "sponsor": "Partnership proposal"
+    },
+    "other": "Other",
+    "send": "Send"
+}

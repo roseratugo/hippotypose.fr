@@ -1,0 +1,31 @@
+{
+    "baseline": "Qu'est-ce que nos clients disent de nous",
+    "olivier": {
+        "text": "“HIPPOTYPOSE est l’outil rêvé pour passer du système carnet-crayon-gomme à l’outil moderne, adapté, pensé par des professionnels « hommes-de-chevaux » pour des profesionnels « hommes-de-chevaux ». Simple et intuitif, HIPPOTYPOSE coche toutes les cases pour accompagner notre quotidien en suivi orthopédique du cheval.”",
+        "job": "Docteur Vétérinaire, diplômé ECVS, ACVSMR (France)"
+    },
+    "denis": {
+        "text": "“HIPPOTYPOSE est l’outil très utile, bien conçu pour une utlisation facile En plus de permettre les échanges d’informations dans le suivi des chevaux, il devrait permettre aux maréchaux d’établir un » état des lieux » (ou plutôt des chevaux) pour les patients qui leur sont confiés. Fiches qui pourraient se révéler fort utiles par la suite en cas de changement d’ »état » ou simplement pour documenter les évolutions dans la morphologie ou la santé de leurs chevaux.”",
+        "job": "Maréchal ferrant, Formateur et Consultant (France)"
+    },
+    "rance-fremur": {
+        "text": "“HIPPOTYPOSE est un support d’examen orthopédique précis et complet . Il nous permet de faciliter l’examen et le suivi orthopédique de nos patients , la communication avec les maréchaux et d’établir des rapports pratiques et parlants pour les propriétaires.”",
+        "name": "Clinique Vétérinaire Rance-Frémur (France)"
+    },
+    "frederique": {
+        "text": "“HIPPOTYPOSE est un excellent outil qui m’offre un suivi détaillé du ferrage de mes chevaux et de l’évolution de leurs pathologies. J’apprécie la facilité avec laquelle ce logiciel me permet de générer des rapports destinés aux propriétaires ainsi que la communication interactive entre le vétérinaire et moi-même. HIPPOTYPOSE me permet également de me protéger en cas de litige grâce aux photos et vidéos que je peux intégrer à mes rapports en amont de mes interventions. ”",
+        "job": "Maréchal ferrant (France, UAE)"
+    },
+    "xavier": {
+        "text": "“Grace à la création de rapports synthétiques, la plateforme HIPPOTYPOSE est pour moi un moyen de valoriser ma prestation auprès du client. Egalement, l’accessibilité des informations à tout moment, et la possibilité d’échanger avec d’autres professionnels améliorent mon efficacité.”",
+        "job": "Maréchal-ferrant (France)"
+    },
+    "louis": {
+        "text": "“L’utilisation de la plateforme HIPPOTYPOSE sur mes chevaux de sport, c’est l’assurance d’optimiser leur suivi locomoteur et orthopédique. C’est aussi l’avantage d’un retour permanent de la part de mon maréchal et mon vétérinaire.”",
+        "job": "Cavalier CSO international (France)"
+    },
+    "fabien": {
+        "text": "“HIPPOTYPOSE complète mes prestations en me permettant de rédiger rapidement des rapports détaillés. Je peux mettre par écrit ma vision et mon ressenti du cheval pour échanger avec d’autres professionnels, ou simplement pour garder une trace et suivre l’évolution.”",
+        "job": "Maréchal-ferrant (France)"
+    }
+}

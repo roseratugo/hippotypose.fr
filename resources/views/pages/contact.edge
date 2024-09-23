@@ -1,0 +1,86 @@
+@include('partials/header')
+<section class="contact-page">
+    <h1>Contact</h1>
+    <p class="subtitle">{{ t('contact.baseline') }}</p>
+    <div class="contact-container">
+        <div class="contact-info">
+            <div class="contact-details">
+                <div class="contact-item">
+                    <img style="width: 100px;" src="{{ asset('resources/assets/img/karl-HERRIAU.png') }}" alt="Logo" />
+                    <h3>{{ t('contact.business-service') }}</h3>
+                    <p>Karl HERRIAU</p>
+                    <a href="tel:+33784232310">07 84 23 23 10</a>
+                    <a href="mailto:contact@hippotypose.com">contact@hippotypose.com</a>
+                </div>
+
+                <div class="contact-item">
+                    <img style="width: 100px;" src="{{ asset('resources/assets/img/Ugo-ROSERAT.webp') }}" alt="Logo" />
+                    <h3>{{ t('contact.support-service') }}</h3>
+                    <p>Ugo ROSERAT</p>
+                </div>
+                
+                <div class="contact-item">
+                    <img style="width: 100px;" src="{{ asset('resources/assets/img/Antoine-CORONA.jpg') }}" alt="Logo" />
+                    <h3>{{ t('contact.farrier-expert') }}</h3>
+                    <p>Antoine CORONA</p>
+                </div>
+
+                <div class="contact-item">
+                    <img style="width: 100px;" src="{{ asset('resources/assets/img/Bertrand-OLONDE.webp') }}" alt="Logo" />
+                    <h3>{{ t('contact.veterinarian-expert') }}</h3>
+                    <p>Bertrand OLONDE</p>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <form action="/contact" method="POST">
+                    <div class="form-row">
+                        <div class="form-group half">
+                            <label for="nom">{{ t('contact.lastname') }}</label>
+                            <input type="text" id="nom" name="nom" required>
+                        </div>
+                        <div class="form-group half">
+                            <label for="prenom">{{ t('contact.firstname') }}</label>
+                            <input type="text" id="prenom" name="prenom" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="status">Status</label>
+                        <select id="status" name="status" required>
+                            <option selected disabled hidden value="">{{ t('contact.status.select') }}</option>
+                            <option value="Maréchal-ferrant">{{ t('contact.status.farrier') }}</option>
+                            <option value="Vétérinaire">{{ t('contact.status.veterinarian') }}</option>
+                            <option value="Propriétaire">{{ t('contact.status.owner') }}</option>
+                            <option value="Autre">{{ t('contact.other') }}</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="telephone">{{ t('contact.phone') }}</label>
+                        <input type="tel" id="telephone" name="telephone">
+                    </div>
+                    <div class="form-group">
+                        <label for="objet">{{ t('contact.object-label') }}</label>
+                        <select id="objet" name="objet" required>
+                            <option selected disabled hidden value="">{{ t('contact.object.select') }}</option>
+                            <option value="Demande d'information">{{ t('contact.object.info') }}</option>
+                            <option value="Demande de devis">{{ t('contact.object.devis') }}</option>
+                            <option value="Support technique">{{ t('contact.object.support') }}</option>
+                            <option value="Proposition de partenariat">{{ t('contact.object.sponsor') }}</option>
+                            <option value="Autre">{{ t('contact.other') }}</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">{{ t('contact.send') }}</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+@include('partials/footer')

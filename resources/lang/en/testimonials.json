@@ -1,0 +1,31 @@
+{
+    "baseline": "What our clients say about us",
+    "olivier": {
+        "text": "“HIPPOTYPOSE is the dream tool for moving from the notebook-pencil-eraser system to a modern tool, adapted and designed by 'horsemen' professionals for 'horsemen' professionals. Simple and intuitive, HIPPOTYPOSE ticks all the boxes to support our daily orthopedic monitoring of horses.”",
+        "job": "Veterinary Doctor, ECVS, ACVSMR graduate (France)"
+    },
+    "denis": {
+        "text": "“HIPPOTYPOSE is a very useful tool, well designed for easy use. In addition to enabling information exchange in horse monitoring, it should allow farriers to establish a 'status report' (or rather a 'horse report') for the patients entrusted to them. These records could prove very useful later in case of status changes or simply to document evolutions in the morphology or health of their horses.”",
+        "job": "Farrier, Trainer and Consultant (France)"
+    },
+    "rance-fremur": {
+        "text": "“HIPPOTYPOSE is a precise and comprehensive orthopedic examination support. It allows us to facilitate the examination and orthopedic monitoring of our patients, communication with farriers, and to establish practical and meaningful reports for owners.”",
+        "name": "Rance-Frémur Veterinary Clinic (France)"
+    },
+    "frederique": {
+        "text": "“HIPPOTYPOSE is an excellent tool that offers me detailed monitoring of my horses' shoeing and the evolution of their pathologies. I appreciate how easily this software allows me to generate reports for owners and the interactive communication between the veterinarian and myself. HIPPOTYPOSE also allows me to protect myself in case of disputes thanks to the photos and videos that I can integrate into my reports before my interventions.”",
+        "job": "Farrier (France, UAE)"
+    },
+    "xavier": {
+        "text": "“Thanks to the creation of synthetic reports, the HIPPOTYPOSE platform is for me a means of enhancing my service to the client. Also, the accessibility of information at any time, and the possibility of exchanging with other professionals improve my efficiency.”",
+        "job": "Farrier (France)"
+    },
+    "louis": {
+        "text": "“Using the HIPPOTYPOSE platform on my sport horses ensures optimized locomotor and orthopedic monitoring. It's also the advantage of constant feedback from my farrier and my veterinarian.”",
+        "job": "International Show Jumping Rider (France)"
+    },
+    "fabien": {
+        "text": "“HIPPOTYPOSE complements my services by allowing me to quickly write detailed reports. I can put in writing my vision and my perception of the horse to exchange with other professionals, or simply to keep track and monitor evolution.”",
+        "job": "Farrier (France)"
+    }
+}

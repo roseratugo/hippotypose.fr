@@ -1,0 +1,26 @@
+{
+    "baseline": "Nous sommes à votre écoute. N'hésitez pas à nous contacter.",
+    "business-service": "Service Commercial",
+    "support-service": "Service Support",
+    "farrier-expert": "Expert en Maréchalerie",
+    "veterinarian-expert": "Expert en Vétérinaire",
+    "lastname": "Nom",
+    "firstname": "Prénom",
+    "status": {
+        "select": "Sélectionnez votre status",
+        "farrier": "Maréchal-ferrant",
+        "veterinarian": "Vétérinaire",
+        "owner": "Propriétaire"
+    },
+    "phone": "Téléphone",
+    "object-label": "Objet de votre demande",
+    "object": {
+        "select": "Sélectionnez l'objet de votre demande",
+        "info": "Demande d'information",
+        "devis": "Demande de devis",
+        "support": "Support technique",
+        "sponsor": "Proposition de partenariat"
+    },
+    "other": "Autre",
+    "send": "Envoyer"
+}
