@@ -1,6 +1,6 @@
 import 'bootstrap-icons/font/bootstrap-icons.css'
-import "unpoly/unpoly.css"
-import "unpoly/unpoly.js"
+//import "unpoly/unpoly.css"
+//import "unpoly/unpoly.js"
 
 import Cookies from 'js-cookie'
 

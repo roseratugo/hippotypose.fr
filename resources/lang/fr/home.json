@@ -1,13 +1,13 @@
 {
-    "h2Title": "1ère plateforme de suivi <strong>orthopédique</strong> de l'équidé !",
-    "baseline": "Rejoignez Hippotypose pour des soins équins précis. Notre plateforme facilite la communication au propriétaire de l'équidé venant de son vétérinaire ou de son maréchal",
-    "demo-btn": "Demander une démo",
-    "firstSectionTitle": "Un <strong>outil</strong> technique et complet",
-    "firstSectionText": "Cadré sur les standards de l'examen locomoteur vétérinaire, vous retrouverez le déroulé exhaustif classique :<br><br>• Examen statique (État corporel, Palpations, Aplombs frontaux et sagittaux, Inclinaisons, Asymétries, Qualité/santé du pied)<br>• Examen dynamique (Examen locomoteur standard AAEP, Tests de flexion, Sonde dynamique, Test de pression du suspenseur, Test du surfaix, Tests d'anesthésies digitales)<br>• Imagerie & Documents (PDF, Photos, Vidéos, Notes vocales, Radiographies, Échographies...)<br>• Diagnostic/Pronostic (Pathologies liées aux éléments anatomiques, Désignation du diagnostic)<br>• Prescriptions ou ferrages (Prescriptions détaillées, propositions de ferrages sous forme d'esquisses)<br>• Consignes laissées au client (Auto-alimentées par le professionnel)<br>• Synthèse (Possibilité d'extraire tous les éléments clés de votre examen pour votre compte-rendu au client)<br><br>Les fonctions de recopie automatique deviendront synonymes de rapidité d'exécution.<br><br>Le code couleur simplifié apportera une lecture simple et fluide de vos contenus.<br><br>Le + de l'outil : Un maximum de précision en un minimum de temps !",
-    "learn-more": "En savoir plus",
-    "secondSectionTitle": "À <strong>destination</strong> de qui ?",
-    "secondSectionText": "Avec HIPPOTYPOSE, en toute confidentialité et en toute simplicité, envoyé vos compte rendu d'examen à vos client et propriétaire. Possibilité de mutualisé l'envoi à d'autre professionnels, tout en archivant et sécurisant vos données (et sélectionné les parties tiers).",
-    "thirdSectionTitle": "Une assistance <strong>technique</strong> et métier",
-    "thirdSectionText": "Souscrire à HIPPOTYPOSE c’est profiter d’une équipe technique disponible pour répondre à vos questions au fil de l’utilisation de la plateforme. Un maréchal et un vétérinaire ce tiennents à votre disposition pour répondre à vos questions concernant l'utilisation de la plateforme",
-    "blog-baseline": "Retrouvez tous nos articles."
+  "h2Title": "1ère plateforme de suivi <strong>orthopédique</strong> de l'équidé !",
+  "baseline": "Maréchal, vétérinaire, rejoignez Hippotypose pour un meilleur suivi de vos chevaux. Notre plateforme facilite votre communication au propriétaire de l'équidé venant de son vétérinaire ou de son maréchal",
+  "demo-btn": "Demander une démo",
+  "firstSectionTitle": "Un <strong>outil</strong> complet, différencié et technique",
+  "firstSectionText": "Cadré sur les standards de l'examen locomoteur vétérinaire, vous y retrouverez le déroulé exhaustif classique :<br><br>• Examen différencié selon votre profession (État corporel, Palpations, Aplombs frontaux et sagittaux, Inclinaisons, Asymétries, Qualité/santé du pied)<br>• Examen dynamique (Examen locomoteur standard AAEP, Tests de flexion, Sonde dynamique, Test de pression du suspenseur, Test du surfaix, Tests d'anesthésies digitales)<br>• Imagerie & Documents (PDF, Photos, Vidéos, Notes vocales, Radiographies, Échographies...)<br>• Diagnostic/Pronostic (Pathologies liées aux éléments anatomiques, Désignation du diagnostic)<br>• Prescriptions ou ferrages (Prescriptions détaillées, propositions de ferrages sous forme d'esquisses)<br>• Consignes laissées au client (Auto-alimentées par le professionnel)<br>• Synthèse (Possibilité d'extraire tous les éléments clés de votre examen pour votre compte-rendu au client)<br><br>Une fonction vous permet de débuter votre rapport vierge ou à partir d'un dernier rapport existant, vous facilitant la rédaction de celui-ci.<br><br>Le code couleur (vert, orange, rouge) apportera une lecture compréhensive immédiate à vos clients.<br><br>Le + de l'outil : Une simplification maximale des fonctionnalités de reporting pour le professionnel",
+  "learn-more": "En savoir plus",
+  "secondSectionTitle": "À <strong>destination</strong> de qui ?",
+  "secondSectionText": "• De vos client <br><br>• Des autres intervenants s'occupant du cheval (Vétérinaire, Maréchaux, Entraineur).<br><br>• Vous avez la possibilité à tous moments de modifié les accès à toutes personnes via la fiche du cheval.",
+  "thirdSectionTitle": "Une assistance <strong>technique</strong> et métier",
+  "thirdSectionText": "Souscrire à HIPPOTYPOSE c’est profiter d’une équipe technique disponible pour répondre à vos questions sur l’utilisation de la plateforme, un développeur pour l'aspect technique, un maréchal et un vétérinaire pour l'aspect métier. ",
+  "blog-baseline": "Retrouvez tous nos articles."
 }
