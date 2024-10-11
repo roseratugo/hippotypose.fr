@@ -25,3 +25,16 @@ jobs:
           build-args: |
             PORT=3333
             NODE_ENV=production
+            HOST=localhost
+            LOG_LEVEL=info
+            APP_KEY=tn3zT-5SYKlYxhiw_-mh24Bu9M8FCEQR
+            SESSION_DRIVER=cookie
+            DB_HOST=127.0.0.1
+            DB_PORT=5432
+            DB_USER=postgres
+            DB_PASSWORD=Darkonis@72700
+            DB_DATABASE=hippotypose
+            SMTP_HOST=smtp.hostinger.com
+            SMTP_PORT=465
+            SMTP_USERNAME=hippotypose@corona-formation.fr
+            SMTP_PASSWORD=Darkonisugoloic@72700
